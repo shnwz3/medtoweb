@@ -2,15 +2,15 @@ import * as React from "react";
 
 export default function Header() {
   return (
-    <header className="m-5px p-2px flex gap-5 justify-between w-full max-md:max-w-full">
-      <div className=" m-5px p-2px flex flex-col text-3xl text-blue-100">
+    <header className="m-6px p-5px flex gap-5 justify-between w-full max-md:max-w-full">
+      <div className="m-7px p-5px flex flex-col text-3xl text-blue-100">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4b3003c749fa23b28d4cb4c4fd62ed194ed2971cc53296215573090fc7ae3c0?placeholderIfAbsent=true&apiKey=675854ba84844804b926882e0a413f4a"
           alt="MedToWeb Logo"
           className="object-contain self-center max-w-full aspect-[2.39] w-[110px]"
         />
-        <div>
+        <div className="text-sky-500">
           Med<span className="text-green-500">To</span>Web
         </div>
       </div>
