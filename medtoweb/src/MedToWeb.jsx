@@ -8,7 +8,6 @@ import PricingSection from "./pricing/PricingSection";
 import ProductsSection from "./products/ProductsSection";
 import Footer from './components/footer/Footer'
 import TestimonialsSection from "./components/TestimonialSection";
-import Doctors from './components/DoctorsSection'
 import DoctorsSection from "./components/DoctorsSection";
 
 const testimonials = [
